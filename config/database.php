@@ -19,8 +19,6 @@ function dbAgenda()
     //encodage
     $charset = "utf8mb4";
 
-
-
     try {
         // Connexion à la base de données
         //mes param de co
