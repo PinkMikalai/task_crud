@@ -1,5 +1,12 @@
 <?php
-echo "test";
+require_once 'config/database.php';
+
+$pdo = dbAgenda();
+$title = "Nouvel article";
+$description = "Voici la description de l'article";
+$status = "En cours";
+
+
 ?>
 
 
